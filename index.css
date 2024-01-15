@@ -1,0 +1,37 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #a67b5b;
+}
+h1{
+    margin-left:200px ;
+    font-size: 50px;
+}
+img{
+    width: 150px;
+  
+}
+
+.main{
+    display: grid;
+    grid-template-rows: 100px 500px;
+    justify-items: center;
+}
+
+.frams{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    column-gap: 10px;
+}
+
+.angu, .react, .vue {
+    display: grid;
+    justify-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    height: 400px;
+    padding: 20px;
+}
